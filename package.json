@@ -1,0 +1,18 @@
+{
+  "name": "portfolio_dev",
+  "version": "1.0.0",
+  "description": "🚀 **Next-Generation Portfolio with AI & Advanced Integrations** 🚀",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jreng7/portfolio_dev.git"
+  },
+  "keywords": [],
+  "author": "Josué Ribeiro",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jreng7/portfolio_dev/issues"
+  },
+  "homepage": "https://github.com/Jreng7/portfolio_dev#readme"
+}
