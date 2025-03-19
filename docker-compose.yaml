@@ -1,0 +1,15 @@
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n
+    ports:
+      - "5678:5678"  # Porta do n8n
+    volumes:
+      - ~/.n8n:/home/node/.n8n  # Persistência de dados
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=true  # Ativa autenticação
+      - N8N_BASIC_AUTH_USER=waydev    # Usuário
+      - N8N_BASIC_AUTH_PASSWORD=nWZ@08c!Z97  # Senha 
+    restart: unless-stopped  # Reinicia automaticamente
+
+

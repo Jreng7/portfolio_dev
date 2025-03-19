@@ -25,9 +25,15 @@ model Tecnology {
 }
 
 model Project {
-  id        Int    @id @default(autoincrement())
-  nome      String
-  descricao String
+  id          Int      @id @default(autoincrement())
+  nome        String
+  descricao   String
+  imagens     String[]
+  nivel       Int
+  tipo        String
+  destaque    Boolean  @default(false)
+  repositorio String
 
   @@map("projetos")
 }
+ 
