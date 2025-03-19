@@ -20,6 +20,7 @@ model Tecnology {
   descricao String
   imagem    String
   destaque  Boolean @default(false)
+  projetos  Project[]
 
   @@map("tecnologias")
 }
@@ -33,6 +34,7 @@ model Project {
   tipo        String
   destaque    Boolean  @default(false)
   repositorio String
+  tecnologias Tecnology[]
 
   @@map("projetos")
 }
