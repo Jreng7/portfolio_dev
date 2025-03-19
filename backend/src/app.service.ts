@@ -1,8 +1,9 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from '@nestjs/common'
+import { x } from '@core'
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Projeto nest rodando';
-  }
+	getHello(): string {
+		return 'Projeto nest rodando' + x
+	}
 }
