@@ -1,4 +1,7 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@nestjs/common'
+import { TecnologiaController } from './tecnologia.controller'
 
-@Module({})
+@Module({
+	controllers: [TecnologiaController],
+})
 export class TecnologiaModule {}
